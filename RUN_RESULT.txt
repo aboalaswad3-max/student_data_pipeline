@@ -1,0 +1,17 @@
+The project now uses MongoDB for final output.
+
+Destination database:
+student_data
+
+Collections:
+- students_final
+- students_rejected
+- countries_processed
+- orders_processed
+
+New independent sources:
+1. Web scraping: https://www.scrapethissite.com/pages/simple/
+   Fields: country, capital, population
+2. MongoDB source: sales.orders
+
+The two new sources are processed independently and are not integrated with each other.
